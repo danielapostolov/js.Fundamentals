@@ -2,10 +2,10 @@ function magicSum(arr, sum) {
     for (i = 0; i < arr.length; i++) {
         let num1 = arr[i];
 
-        for (j = i + 1; j < arr.length; j++){
+        for (j = i + 1; j < arr.length; j++) {
             let num2 = arr[j];
-            if(num1 + num2 == sum){
-                console.log(num1 + ' ' + num2 );
+            if (num1 + num2 == sum) {
+                console.log(num1 + ' ' + num2);
             }
         }
     }
